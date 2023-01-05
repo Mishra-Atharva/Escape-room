@@ -118,13 +118,12 @@ function draw() {
     
     if (exit && epressed) {
         pass = prompt("Enter the code: ");
-        if (pass != code) {
-            epressed = false;
-        } else {
-            playerPX = 250;
-            playerPY = 350;
+        if (pass == code) {
             alert("You have escaped!");
             window.open("https://mishra-atharva.github.io/", "_self");
+        } else {
+            epressed = false;
+            exit = false;
         }
     } 
     
