@@ -1,0 +1,77 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map.tmx",
+    "expandedProjectPaths": [
+    ],
+    "exportAsImage.useCurrentScale": true,
+    "fileStates": {
+        "Base.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Objects.tsx": {
+            "scaleInDock": 2.1292,
+            "scaleInEditor": 1
+        },
+        "base.tsx": {
+            "scaleInDock": 1.7274,
+            "scaleInEditor": 1
+        },
+        "collision.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "exit.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "interact.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "map.tmx": {
+            "scale": 3.7641,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 101.48508275550597,
+                "y": 85.27934964533355
+            }
+        },
+        "test.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/atharvamishra/Desktop/Projects/Portfolio/map",
+    "map.height": 22,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 22,
+    "openFiles": [
+        "base.tsx",
+        "map.tmx",
+        "collision.tsx",
+        "interact.tsx",
+        "exit.tsx"
+    ],
+    "project": "map.tiled-project",
+    "recentFiles": [
+        "base.tsx",
+        "exit.tsx",
+        "interact.tsx",
+        "collision.tsx",
+        "map.tmx",
+        "test.tsx",
+        "Base.tsx",
+        "Objects.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
