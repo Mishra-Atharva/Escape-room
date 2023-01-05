@@ -1,6 +1,6 @@
 //player image and coordinates
 var player = new Image();
-player.src = "/Player/player.png";
+player.src = "player.png";
 var size = 80;
 var moving = true;
 var touch = false;
