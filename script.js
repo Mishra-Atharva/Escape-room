@@ -4,9 +4,9 @@ var ctx = screen.getContext("2d");
 screen.width = document.body.offsetWidth;
 screen.height = document.body.offsetHeight;
 var text = new Image();
-text.src = "/map/text.png";
+text.src = "map/text.png";
 var text1 = new Image();
-text1.src = "/map/nothing.png"
+text1.src = "map/nothing.png"
 var num = 0;
 var one = new Image();
 var two = new Image();
@@ -19,15 +19,15 @@ var eight = new Image();
 var nine = new Image();
 var pass = "";
 var exit = false;
-one.src = "/map/1.png";
-two.src = "/map/2.png";
-three.src = "/map/3.png";
-four.src = "/map/4.png";
-five.src = "/map/5.png";
-six.src = "/map/6.png";
-seven.src = "/map/7.png";
-eight.src = "/map/8.png";
-nine.src = "/map/9.png";
+one.src = "map/1.png";
+two.src = "map/2.png";
+three.src = "map/3.png";
+four.src = "map/4.png";
+five.src = "map/5.png";
+six.src = "map/6.png";
+seven.src = "map/7.png";
+eight.src = "map/8.png";
+nine.src = "map/9.png";
 
 
 //frames
