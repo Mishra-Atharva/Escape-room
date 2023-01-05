@@ -95,7 +95,6 @@ function checking() {
     if (exit && epressed) {
         pass = prompt("Enter the code: ");
         if (pass == code) {
-            alert("You have escaped!");
             window.open("https://mishra-atharva.github.io/", "_self");
         } else {
             epressed = false;
