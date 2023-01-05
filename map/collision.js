@@ -91,6 +91,18 @@ function collided(playerx, playery, bound) {
     return (playerx + playerW + 30 >= bound.position.x && playerx + 15  <= bound.position.x + Boundary.width &&  playery + 30 <= bound.position.y + Boundary.height && playery + playerH + 50 >= bound.position.y);
 }
 
+function checking() {
+    if (exit && epressed) {
+        pass = prompt("Enter the code: ");
+        if (pass == code) {
+            alert("You have escaped!");
+            window.open("https://mishra-atharva.github.io/", "_self");
+        } else {
+            epressed = false;
+            exit = false;
+        }
+    } 
+}
 // function object(playerx, playery, objects) {
 //     return(playerx + playerW + 30 >= objects.position.x && playerx + 15  <= objects.position.x + obj.width &&  playery + 30 <= objects.position.y + obj.height && playery + playerH + 50 >= objects.position.y);
 // }
