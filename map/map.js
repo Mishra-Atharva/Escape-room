@@ -1,8 +1,8 @@
 //map images and coordiantes
 var map = new Image();
 var foreground = new Image();
-foreground.src = "/Users/atharvamishra/Desktop/Projects/Portfolio/map/foreground.png";
-map.src = "/Users/atharvamishra/Desktop/Projects/Portfolio/map/map.png";
+foreground.src = "/map/foreground.png";
+map.src = "/map/map.png";
 
 //map coordinates
 var mapPX = 0;
