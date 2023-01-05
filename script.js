@@ -121,6 +121,8 @@ function draw() {
         if (pass != code) {
             epressed = false;
         } else {
+            playerPX = 250;
+            playerPY = 350;
             alert("You have escaped!");
             window.open("https://mishra-atharva.github.io/", "_self");
         }
