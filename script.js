@@ -91,23 +91,23 @@ function draw() {
     for(var o = 0; o < interaction.length; o++) {
         if (interaction[o].show) {
             if (interaction[o].code == 1) {
-                ctx.drawImage(one, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(one, interaction[o].position.x + 25, interaction[o].position.y);
             } else if (interaction[o].code == 2) {
-                ctx.drawImage(two, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(two, interaction[o].position.x +25, interaction[o].position.y);
             } else if (interaction[o].code == 3) {
-                ctx.drawImage(three, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(three, interaction[o].position.x +25, interaction[o].position.y);
             } else if (interaction[o].code == 4) {
-                ctx.drawImage(four, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(four, interaction[o].position.x +25, interaction[o].position.y);
             } else if (interaction[o].code == 5) {
-                ctx.drawImage(five, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(five, interaction[o].position.x +25, interaction[o].position.y);
             } else if (interaction[o].code == 6) {
-                ctx.drawImage(six, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(six, interaction[o].position.x +25, interaction[o].position.y);
             } else if (interaction[o].code == 7) {
-                ctx.drawImage(seven, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(seven, interaction[o].position.x + 25, interaction[o].position.y);
             } else if (interaction[o].code == 8) {
-                ctx.drawImage(eight, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(eight, interaction[o].position.x +25, interaction[o].position.y);
             } else if (interaction[o].code == 9) {
-                ctx.drawImage(nine, interaction[o].position.x + 30, interaction[o].position.y);
+                ctx.drawImage(nine, interaction[o].position.x +25, interaction[o].position.y);
             }
         }
     }
