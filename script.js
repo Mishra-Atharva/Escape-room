@@ -19,6 +19,7 @@ var eight = new Image();
 var nine = new Image();
 var pass = "";
 var exit = false;
+var prp = 0;
 one.src = "map/1.png";
 two.src = "map/2.png";
 three.src = "map/3.png";
@@ -115,8 +116,18 @@ function draw() {
         ctx.drawImage(text, 700, 800);
         exit = true;
     }
-    
-    checking();    
+
+    if (exit && epressed && prp != 1) {
+        pass = prompt("Enter the code: ");
+        if (pass == code) {
+            window.open("https://mishra-atharva.github.io/", "_self");
+            prp = 1;
+        } else {
+            epressed = false;
+            exit = false;
+        }
+    } 
+       
     fps++;
     requestAnimationFrame(draw);
 }
