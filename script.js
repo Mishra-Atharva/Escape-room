@@ -132,4 +132,5 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
+prompt("There are 6 code hidden in the room find them and then go to the door to enter the code in the correct order to escape good luck!");
 draw();
